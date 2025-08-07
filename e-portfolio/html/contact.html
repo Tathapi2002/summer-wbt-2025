@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My e-Portfolio/Contact Me</title>
+    <link rel="stylesheet" href="..\css/contact.css">
+    <link rel="stylesheet" href="..\css/nav.css">
+    <link rel="stylesheet" href="..\css/footer.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><div><a href="..\index.html">Home</a></div></li>
+                <li><div><a href="education.html">Education</a></div></li>
+                <li><div><a href="experience.html">Experience</a></div></li>
+                <li><div><a href="projects.html">Projects</a></div></li>
+                <li><div><a href="contact.html">Contact Me</a></div></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <form action="">
+            <div class="formContain">
+                First Name: <input class="textBox" type="text" required><br>
+                Last Name: <input class="textBox" type="text" required><br>
+                Email: <input class="textBox" type="email" placeholder="you@email.com" required><br>
+
+                Reason of Contact: <br>
+                <input type="radio" name="reason" value="projects" required> Projects <br>
+                <input type="radio" name="reason" value="thesis"> Thesis <br>
+                <input type="radio" name="reason" value="meeting"> Meeting <br>
+
+                Service: <br>
+                <input type="checkbox" name="service" value="Web Development" required> Web Development <br>
+                <input type="checkbox" name="service" value="C# expert"> C# Expert <br>
+                <input type="checkbox" name="service" value="Java expert"> Java Expert <br>
+
+                Are you offering job?: (Optional) <br>
+                <input type="radio" name="option" value="yes"> Yes <input type="radio" name="option" value="no"> No
+                <br>
+                Select Your Position:
+                <select name="" id="">
+                    <option value="ceo">CEO</option>
+                    <option value="hr">HR</option>
+                    <option value="employee">Employee</option>
+                </select> <br>
+            </div>
+            <div class="formBtn">
+                <input id="submitBtn" type="submit" value="Send">
+            </div>
+        </form>
+    </section>
+    <hr>
+    <footer>
+        <div class="contain">
+            <div class="contactInfo">
+                <h1>Contact Info</h2>
+                    Address: House-45/D, Road No-08, Block-C, Bashundhara R/A, Dhaka <br>
+                    Mobile: +8801609568564, +8801701745575 <br>
+                    Email: tathapim@gmail.com <br>
+            </div>
+            <div class="socialLink">
+                
+                <a href="https://www.linkedin.com/in/tathapi-mondal"><img src="..\image/icon_LN.png" alt=""></a>
+                <a href="https://www.instagram.com/__tathapi__"><img src="..\image/icon_instagram.png" alt=""></a>
+                <a href="https://www.facebook.com/tathapi.arni"><img src="..\image/icon_fb.png" alt="FaceBook"></a>
+            </div>
+        </div>
+        <div class="copyRight">
+            <p>&copy; 2025 Tathapi Mondal. All rights reserved.</p>
+
+        </div>
+    </footer>
+</body>
+
+</html>
